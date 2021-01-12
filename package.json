@@ -1,6 +1,6 @@
 {
-  "private": true,
-  "name": "berry-ui",
+  "private": false,
+  "name": "@hexuebin/berry-ui",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
