@@ -1,4 +1,4 @@
-# strawberry-ui
+# berry-ui
 
 ## Getting Started
 

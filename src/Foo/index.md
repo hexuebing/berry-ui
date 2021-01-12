@@ -10,7 +10,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'strawberry-ui';
+import { Foo } from 'berry-ui';
 
 export default () => <Foo title="First Demo" />;
 ```

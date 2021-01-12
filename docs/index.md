@@ -1,7 +1,7 @@
 ---
 hero:
-  title: strawberry-ui
-  desc: strawberry-ui site example
+  title: berry-ui
+  desc: berry-ui site example
   actions:
     - text: Getting Started
       link: /components
@@ -18,4 +18,4 @@ features:
 footer: Open-source MIT Licensed | Copyright © 2020<br />Powered by [dumi](https://d.umijs.org)
 ---
 
-## Hello strawberry-ui!
+## Hello berry-ui!
