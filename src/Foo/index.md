@@ -10,7 +10,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'berry-ui';
+import { Foo } from '@hexuebin/berry-ui';
 
 export default () => <Foo title="First Demo" />;
 ```

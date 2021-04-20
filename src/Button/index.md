@@ -10,7 +10,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Button } from 'berry-ui';
+import { Button } from '@hexuebin/berry-ui';
 
 export default () => (
   <Button title="Light Button" href="#" onClick={() => console.info('nihao')} />
