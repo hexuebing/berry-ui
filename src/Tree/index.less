@@ -1,8 +1,18 @@
 .tree__box {
   position: relative;
+  .tree__phantom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    pointer-events: none;
+  }
   .tree__content {
     position: absolute;
+    left: 0;
+    right: 0;
     top: 0;
-    width: 100%;
+    bottom: 0;
   }
 }
