@@ -1,69 +1,33 @@
-.light-btn{
+.ant-btn {
+  line-height: 1.5715;
   position: relative;
   display: inline-block;
-  padding: 15px 30px;
-  color: #2196f3;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  text-decoration: none; /*下划线*/
-  font-size: 24px;
-  overflow: hidden;
-  transition: 0.2s;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  box-shadow: 0 2px #00000004;
+  cursor: pointer;
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  height: 32px;
+  padding: 4px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  color: #000000d9;
+  border-color: #d9d9d9;
+  background: #fff;
 }
-.light-btn:hover{
-  color: #255784;
-  background: #2196f3;
-  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 10px #2196f3;
-  transition-delay: 1s;
-}
-.light-btn span{
-  position: absolute;
-  display: block;
-}
-.light-btn span:nth-child(1){
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, #2196f3);
-}
-.light-btn:hover span:nth-child(1){
-  left: 100%;
-  transition: 0.5s; /*hover对象设置没有回退动画*/
-}
-.light-btn span:nth-child(2){
-  right: 0;
-  top: -100%;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(180deg, transparent, #2196f3);
-}
-.light-btn:hover span:nth-child(2){
-  top: 100%;
-  transition: 1s; /*hover对象设置没有回退动画*/
-  transition-delay: 0.25s;
-}
-.light-btn span:nth-child(3){
-  bottom: 0;
-  right: -100%;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(270deg, transparent, #2196f3);
-}
-.light-btn:hover span:nth-child(3){
-  right: 100%;
-  transition: 1s;
-  transition-delay: 0.5s;
-}
-.light-btn span:nth-child(4){
-  left: 0;
-  bottom: -100%;
-  width: 2px;
-  height: 100%;
-  background: linear-gradient(360deg, transparent, #2196f3);
-}
-.light-btn:hover span:nth-child(4){
-  bottom: 100%;
-  transition: 1s; /*hover对象设置没有回退动画*/
-  transition-delay: 0.75s;
+
+.ant-btn-primary {
+  color: #fff;
+  border-color: #1890ff;
+  background: #1890ff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px #0000000b;
 }

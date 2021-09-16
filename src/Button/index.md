@@ -6,14 +6,21 @@ nav:
 
 ## Button
 
-Demo:
+按钮类型:
 
 ```tsx
 import React from 'react';
 import { Button } from '@hexuebin/berry-ui';
 
 export default () => (
-  <Button title="Light Button" href="#" onClick={() => console.info('nihao')} />
+  <>
+    <Button type="primary">Primary Button</Button>
+    <Button>Default Button</Button>
+    <Button type="dashed">Dashed Button</Button>
+    <br />
+    <Button type="text">Text Button</Button>
+    <Button type="link">Link Button</Button>
+  </>
 );
 ```
 
