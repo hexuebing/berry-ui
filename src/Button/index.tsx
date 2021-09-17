@@ -1,6 +1,6 @@
 import * as React from 'react';
 import classNames from 'classnames';
-import './index.css';
+import './style/index.less';
 import { tuple } from '@/_util/type';
 import { SizeType } from '@/config-provider/SizeContext';
 import { ConfigContext } from '../config-provider';
